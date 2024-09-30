@@ -1,0 +1,157 @@
+ /* Global settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Container for the first image */
+.csv5-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.csv5-image img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 600px;
+}
+
+/* First paragraph section styling */
+.csvp1 {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.csvp1 h3 {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Second image styling */
+.csv4-image {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.csv4-image img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text section with CSV services */
+.csv-text {
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.csv-text h1 {
+  font-size: 2em;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.csv-text h3 {
+  font-size: 1.1em;
+  color: #333;
+  text-align: justify;
+}
+
+/* Third section styling */
+.csv-text1 {
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.csv-text1 h1 {
+  font-size: 2em;
+  color: #0077b6;
+  margin-bottom: 10px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  
+  
+}
+
+.csv-text1 h3 {
+  font-size: 1.1em;
+  color: #333;
+  text-align: justify;
+  margin-left: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  margin: 2px auto;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  
+
+}
+
+/* System testing section */
+.csv-system {
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.csv-system h1 {
+  font-size: 2em;
+  color: #023e8a;
+  margin-bottom: 10px;
+}
+
+.csv-system p {
+  font-size: 1.1em;
+  color: #2d2c2c;
+  text-align: justify;
+  font-size: x-large;
+  font-family:initial
+}
+
+/* Hover effect for images */
+.csv5-image img:hover, .csv4-image img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .csv1-image img, .csv4-image img {
+      width: 95%;
+  }
+
+  .csvp1 h3, .csv-text h3, .csv-system p {
+      font-size: 1em;
+  }
+
+  .csv-text h1, .csv-system h1 {
+      font-size: 1.9em;
+  } 
+}

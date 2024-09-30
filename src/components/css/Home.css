@@ -1,0 +1,248 @@
+/* General Styles for All Devices */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.main-overview {
+    text-align: center;
+}
+.welcome{
+    font-size: x-large;
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.wel{
+    margin-top: 10px;
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+     background-color: navy;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #c4c6e7;
+
+    
+    
+
+}
+/* Container for the entire section */
+
+
+  /* Image container */
+  .image-container {
+    flex-basis: 80%; /* 50% of the width for the image */
+  }
+  
+  .home1-image {
+    background-image: url('../../images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px; /* Set height */
+    border-radius: 8px;
+    max-width: 900px;
+   }
+  
+  /* Text container */
+  .text-container {
+    flex-basis: 35%; 
+    background-color: #071e69;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-align: center;
+    max-height: 550px;
+    margin-right: 20px;
+  }
+  
+  .text-container h4 {
+    font-size: 35px;
+    color: #fafafa;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  
+  
+
+ 
+
+.maindiv h3 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.maindiv h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ead4d4;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    background-color: #324696;
+    border-radius: 5px;
+ 
+}
+ 
+
+
+.maindiv h2 {
+    font-size: 1.9rem;
+    color: #460c04dc;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    background-color:  #c4c6e7;
+    border-radius: 9px;
+     margin-left: 100px;
+    padding: 10px;
+    font-display:flex ; 
+     vertical-align: middle;
+    
+    
+}
+
+
+
+.overview_main, .overview_name, .contrib_head, .tag_line {
+    margin: 30px 0;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.overview_para {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.learn_more_btn {
+    background-color: #6286be;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.pharma-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pharma-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(16, 16, 16, 0.1);
+}
+
+/* Media Queries for Responsive Design */
+
+/* Small Devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .maindiv h1 {
+        font-size: 2rem;
+    }
+
+    .maindiv h2 {
+        font-size: 1.2rem;
+    }
+
+    .overview_para {
+        font-size: 1rem;
+    }
+
+    .learn_more_btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Medium Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .maindiv h1 {
+        font-size: 2.2rem;
+    }
+
+    .overview_para {
+        font-size: 1.1rem;
+    }
+}
+
+/* Large Devices (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .maindiv h1 {
+        font-size: 3rem;
+    }
+
+    .overview_para {
+        max-width: 900px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack the image and text vertically on small screens */
+    }
+  
+    .image-container, .text-container {
+      width: 100%; /* Full width for both containers */
+    }
+  
+    .home1-image {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  }
+  /* For tablets and medium screens (1024px and below) */
+@media (max-width: 1024px) {
+    .container1 {
+        flex-direction: column; /* Stack the image and text vertically */
+    }
+
+    .image-container, .text-container {
+        width: 100%; /* Full width for both containers */
+    }
+
+    .home1-image {
+        height: 400px; /* Adjust height for medium screens */
+    }
+
+    .text-container h4 {
+        font-size: 24px; /* Adjust font size for medium screens */
+    }
+}
+
+/* For small screens and mobile devices (576px and below) */
+@media (max-width: 576px) {
+    .container1 {
+        flex-direction: column; /* Stack image and text vertically */
+        padding: 10px; /* Add some padding for small screens */
+    }
+
+    .image-container, .text-container {
+        width: 100%; /* Full width for both containers */
+    }
+
+    .home1-image {
+        height: 250px; /* Reduce the height for smaller screens */
+    }
+
+    .text-container h4 {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+
+    .text-container {
+        padding: 10px;
+        text-align: center; /* Center align the text on smaller screens */
+    }
+}

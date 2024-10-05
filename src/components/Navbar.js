@@ -65,6 +65,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/career" onClick={toggleMenu}>Career</Link>
+          </li> 
+          <li>
+            <Link to="/clint" onClick={toggleMenu}>Client</Link>
           </li>
           <li>
             <Link to="/contact" onClick={toggleMenu}>Contact</Link>

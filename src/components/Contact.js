@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="contact-details">
         <h1>Contact Us</h1>
         <div className="contact-item">
-        <FaMapMarkerAlt className="contact-icon" />
+        <FaMapMarkerAlt className="contact1-icon" />
         <p>QualifyIT Solutions<br></br> 
         Floor No.: First Floor
 .Flat No.: G2,<br></br>
@@ -41,12 +41,12 @@ PIN Code: 500090 </p>
        
       <div className='contact-hours'>
         <h4>WORKING HOURS</h4>
-        <p>Mon - Fri: 8am - 8pm<br></br>
-​​          Saturday: 9am - 7pm<br></br>
-​           Sunday: 9am - 8pm
-        </p>
+        <p>Mon - Fri: 9am - 6pm<br></br>
+​​          Saturday: 9am - 6pm<br></br>
+         </p>
       </div>
       </div>
+      
     </div></>
   );
 };

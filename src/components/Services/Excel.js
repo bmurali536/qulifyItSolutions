@@ -12,7 +12,7 @@ const Excel = () => {
     <div className="excel1-text">
         <h1 > Excel Sheet
         </h1>
-        <h4> 👉Excel Sheet Validation is a crucial process for ensuring the accuracy, reliability,
+        <h4> Excel Sheet Validation is a crucial process for ensuring the accuracy, reliability,
              and compliance of spreadsheet applications, <br></br>particularly in regulated industries such 
              as pharmaceuticals, biotechnology, and medical devices. As Excel spreadsheets are often
               used for critical data calculations, reporting, and decision-making, validating these tools

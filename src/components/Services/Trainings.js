@@ -19,8 +19,8 @@ const Trainings = () => {
         </h4>
     </div>
     <div className='trainings1'>
-        <h2> Our training offerings include: </h2>
-        <h3> Good Manufacturing Practices (GMP) Training:</h3>
+        <h1> Our training offerings include: </h1>
+        <h2> Good Manufacturing Practices (GMP) Training:</h2>
         <h4> Comprehensive courses that cover the principles of GMP, ensuring that your team understands and implements the necessary practices to maintain compliance and product integrity.
         </h4>
 

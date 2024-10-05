@@ -5,6 +5,9 @@ import About from './components/About';
 import Services from './components/Services';
 import Career from './components/Career';
 import Contact from './components/Contact';
+ import Clint from './components/Clint';
+
+
 //import TopInfo from './components/Top';
 import Navbar from './components/Navbar';
 import Overview from './components/Overview';
@@ -25,6 +28,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/clint" element={<Clint />} />
+
         <Route path="/csv" element={<CSV />} />
         <Route path="/CandQ" element={<CandQ />} />
         <Route path="/Excel" element={<Excel />} />

@@ -3,7 +3,7 @@ import './css/About.css'; // Import your CSS file
 import aboutImage from '../images/about.jpg'; // Import the image
 import Title from './Title';
 
-import iso1image from '../images/iso1.png.jpeg'; // Import the ISO image
+import iso1image from '../images/iso4.jpeg'; // Import the ISO image
 import iso3image from '../images/iso3.jpg.jpeg'; // Corrected extension from 'pjg' to 'jpg'
 
 

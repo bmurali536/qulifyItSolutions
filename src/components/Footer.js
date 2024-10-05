@@ -1,6 +1,7 @@
 import './css/Footer.css';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-// import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 import FacebookIcon from '@mui/icons-material/Facebook';
 import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
 import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
@@ -34,8 +35,11 @@ function Footer() {
                             <div className="socials">
                                 <FacebookIcon sx={{ fontSize: 40, color: "red" }} />
                             </div>
-                            {/* <div class="socials"><InstagramIcon sx={{ fontSize: 40, color:'red' }} /></div> */}
-                        </div>
+                            <div className='socials'> 
+                         <LinkedInIcon sx={{ fontSize: 40, color: 'red' }} />
+                         </div>
+                         </div> 
+                        
                     </div>
 
                     <div className="links-column column2">
@@ -64,8 +68,9 @@ function Footer() {
                         </p>
                         <p>+91 8019426810</p>
                         <p>+91 8019426812</p>
-                        <p>WWW.info@qualifyitsolutions.com</p>
-                    </div>
+                        <p>Email: <a href="mailto:info@qualifyitsolutions.com">info@qualifyitsolutions.com</a></p>
+
+                     </div>
                 </div>
             </footer>
         </>
